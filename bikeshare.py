@@ -165,7 +165,7 @@ def user_stats(df):
     
     if 'Birth Year' in df:
         recent_yob = df['Birth Year'].max()
-        print('Most recent year of birth: ', recent_yob)
+        print('The most recent year of birth is: ', recent_yob)
     else:
         print('There\'s no birth year data for this city.')
     
