@@ -187,7 +187,7 @@ def user_stats(df):
     print('-'*40)
 
 def display_data(df):
-    """Displays 5 additional rows of data if the user specifies that they would like to"""
+    """Displays 5 more rows of data when the user specifies that they would like to view more"""
     
     start_index = 0
     end_index = 5
